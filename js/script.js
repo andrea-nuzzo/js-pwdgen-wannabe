@@ -14,3 +14,7 @@ console.log(color)
 // Generare la password (nomecognomecolore21)
 const password = (`${firstName}${lastName}${color}21`);
 console.log(password)
+
+
+//Inserisci la pass nel div html
+document.getElementById('pass').innerHTML = password;
